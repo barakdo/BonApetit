@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BonApetit | Luxury Dining</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-flex">
+      <a href="index.html" class="logo">
+        <img src="img/logo.png" alt="BonApetit Logo" class="logo-img" />
+      </a>
+      <nav class="top-nav">
+        <ul>
+          <li><a href="#menu-section">Menu</a></li>
+          <li><a href="delivery.html">Delivery</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <aside class="side-nav" id="sideNav" style="display: none;">
+    <div class="subway-line" id="category-nav">
+      <div class="line-track"></div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <section class="hero">
+      <div class="slideshow-container">
+        <img src="https://images.pexels.com/photos/262918/pexels-photo-262918.jpeg" class="hero-slide active" />
+        <img src="https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg" class="hero-slide" />
+        <img src="https://images.pexels.com/photos/2629786/pexels-photo-2629786.jpeg" class="hero-slide" />
+        <div class="overlay-text">
+          <h1><span>BonApetit</span></h1>
+          <p>Where elegance meets flavor — explore gourmet cuisine in luxury style.</p>
+          <button class="cta-button" onclick="scrollToMenu()">Explore Menu</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu-section" class="menu-section container scroll-section">
+      <h2 class="section-title">Our Signature Menu</h2>
+      <div id="menu-grid"></div>
+    </section>
+
+    <section id="about" class="section container scroll-section">
+      <h2 class="section-title">About Us</h2>
+      <p>
+        At BonApetit, we believe dining should be more than just a meal — it should be an experience.
+        Founded in 2020 by world-renowned chef Adrien Lemoine, our restaurant offers a harmonious blend of
+        classical and modern cuisine, prepared with the finest ingredients and an eye for artistry.
+      </p>
+    </section>
+
+    <section id="gallery" class="section container scroll-section">
+      <h2 class="section-title">Gallery</h2>
+      <div class="gallery-slider">
+        <button class="gallery-arrow left" onclick="slideGallery(-1)">&#10094;</button>
+        <div class="gallery-track" id="gallery-track">
+          <!-- 20 תמונות באיכות מלאה -->
+          <img src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg" class="gallery-image" />
+          <img src="https://images.pexels.com/photos/262047/pexels-photo-262047.jpeg" class="gallery-image" />
+          <img src="https://images.pexels.com/photos/556076/pexels-photo-556076.jpeg" class="gallery-image" />
+          <img src="https://images.pexels.com/photos/1395967/pexels-photo-1395967.jpeg" class="gallery-image" />
+          <img src="https://images.pexels.com/photos/592077/pexels-photo-592077.jpeg" class="gallery-image" />
+          <img src="https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg" class="gallery-image" />
+          <img src="https://images.pexels.com/photos/1400343/pexels-photo-1400343.jpeg" class="gallery-image" />
+          <img src="https://images.pexels.com/photos/931162/pexels-photo-931162.jpeg" class="gallery-image" />
+          <img src="https://images.pexels.com/photos/1639564/pexels-photo-1639564.jpeg" class="gallery-image" />
+          <img src="https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg" class="gallery-image" />
+          <img src="https://images.pexels.com/photos/769289/pexels-photo-769289.jpeg" class="gallery-image" />
+          <img src="https://images.pexels.com/photos/262918/pexels-photo-262918.jpeg" class="gallery-image" />
+          <img src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg" class="gallery-image" />
+          <img src="https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg" class="gallery-image" />
+          <img src="https://images.pexels.com/photos/6759512/pexels-photo-6759512.jpeg" class="gallery-image" />
+          <img src="https://images.pexels.com/photos/2343466/pexels-photo-2343466.jpeg" class="gallery-image" />
+          <img src="https://images.pexels.com/photos/4109997/pexels-photo-4109997.jpeg" class="gallery-image" />
+          <img src="https://images.pexels.com/photos/3026808/pexels-photo-3026808.jpeg" class="gallery-image" />
+          <img src="https://images.pexels.com/photos/7045694/pexels-photo-7045694.jpeg" class="gallery-image" />
+          <img src="https://images.pexels.com/photos/1435907/pexels-photo-1435907.jpeg" class="gallery-image" />
+        </div>
+        <button class="gallery-arrow right" onclick="slideGallery(1)">&#10095;</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="container footer-row">
+      <div>
+        <h3 class="footer-title">Contact Us</h3>
+        <p><strong>Phone:</strong> +972-3-1234567</p>
+        <p><strong>Email:</strong> contact@bonapetit.co.il</p>
+        <p><strong>Address:</strong> 45 Rothschild Blvd, Tel Aviv</p>
+      </div>
+      <div>
+        <h3 class="footer-title">Opening Hours</h3>
+        <p>Sun - Thu: 12:00–23:00</p>
+        <p>Fri - Sat: 13:00–00:00</p>
+      </div>
+      <div>
+        <h3 class="footer-title">Follow Us</h3>
+        <p>Instagram • Facebook • TikTok</p>
+      </div>
+    </div>
+    <div class="container copyright">
+      <p>© 2025 BonApetit. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
