@@ -1,0 +1,16 @@
+[
+  {
+    "PK": "COURIER#789",
+    "SK": "COURIER#789",
+    "name": "David Levy",
+    "phone": "052-1234567",
+    "available": true
+  },
+  {
+    "PK": "COURIER#102",
+    "SK": "COURIER#102",
+    "name": "Rina Cohen",
+    "phone": "052-7654321",
+    "available": false
+  }
+]

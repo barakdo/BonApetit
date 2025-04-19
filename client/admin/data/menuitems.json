@@ -1,0 +1,32 @@
+[
+  {
+    "PK": "ITEM#p1",
+    "SK": "ITEM#p1",
+    "name": "Pizza Margherita",
+    "description": "Classic pizza with tomato sauce, mozzarella, and basil.",
+    "category": "Pizza",
+    "price": 38,
+    "img": "https://example.com/pizza.jpg",
+    "available": true
+  },
+  {
+    "PK": "ITEM#s3",
+    "SK": "ITEM#s3",
+    "name": "Green Salad",
+    "description": "Fresh green salad with cucumber and tomato.",
+    "category": "Salad",
+    "price": 24,
+    "img": "https://example.com/salad.jpg",
+    "available": true
+  },
+  {
+    "PK": "ITEM#p2",
+    "SK": "ITEM#p2",
+    "name": "Pasta Alfredo",
+    "description": "Creamy pasta with parmesan and mushrooms.",
+    "category": "Pasta",
+    "price": 42,
+    "img": "https://example.com/pasta.jpg",
+    "available": false
+  }
+]
