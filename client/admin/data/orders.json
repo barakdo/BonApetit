@@ -1,0 +1,26 @@
+[
+  {
+    "PK": "ORDER#12345",
+    "SK": "ORDER#12345",
+    "userId": "USER#456",
+    "orderType": "delivery",
+    "orderStatus": "in-preparation",
+    "createdAt": "2025-04-11T14:00:00Z",
+    "address": "123 Herzl St, Tel Aviv",
+    "courierDepartureTime": "2025-04-11T14:30:00Z",
+    "estimatedArrivalTime": "2025-04-11T14:50:00Z",
+    "items": [
+      { "itemId": "ITEM#p1", "name": "Pizza", "quantity": 1 },
+      { "itemId": "ITEM#s3", "name": "Salad", "quantity": 2 }
+    ]
+  },
+  {
+    "PK": "ORDER#67890",
+    "SK": "ORDER#67890",
+    "userId": "USER#123",
+    "orderType": "pickup",
+    "orderStatus": "ready",
+    "createdAt": "2025-04-11T13:40:00Z",
+    "items": [{ "itemId": "ITEM#p2", "name": "Pasta", "quantity": 1 }]
+  }
+]

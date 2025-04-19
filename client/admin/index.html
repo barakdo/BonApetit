@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="he">
+  <head>
+    <meta charset="UTF-8" />
+    <title>BonAppetit - לוח ניהול</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <div class="dropdown">
+          <button>⋮ תפריט נוסף</button>
+          <div class="dropdown-content">
+            <button onclick="showSection('menu')">עריכת תפריט</button>
+            <button onclick="showSection('couriers')">שליחים</button>
+            <button onclick="showSection('history')">היסטוריית משמרות</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-center">
+        <button onclick="showSection('delivery')">משלוחים</button>
+        <button onclick="showSection('pickup')">איסוף עצמי</button>
+      </div>
+
+      <div class="nav-right">
+        <div class="logout" onclick="logout()">🔒 התנתקות</div>
+      </div>
+    </nav>
+
+    <main>
+      <section id="delivery" class="section active">
+        <h2>הזמנות במשלוח</h2>
+        <div id="deliveryOrdersContainer"></div>
+      </section>
+
+      <section id="pickup" class="section">
+        <h2>הזמנות באיסוף עצמי</h2>
+        <div id="pickupOrdersContainer"></div>
+      </section>
+
+      <section id="menu" class="section">
+        <h2>תפריט</h2>
+        <table class="menu-table">
+          <thead>
+            <tr>
+              <th>תמונה</th>
+              <th>שם</th>
+              <th>מחיר</th>
+              <th>סטטוס</th>
+              <th>פעולות</th>
+            </tr>
+          </thead>
+          <tbody id="menuTableBody"></tbody>
+        </table>
+      </section>
+
+      <section id="couriers" class="section">
+        <h2>שליחים</h2>
+        <div id="courierList"></div>
+      </section>
+
+      <section id="history" class="section">
+        <h2>היסטוריית משמרות</h2>
+        <p>22/03/2025 - ערב</p>
+        <p>29/03/2025 - בוקר</p>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
