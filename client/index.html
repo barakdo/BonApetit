@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="he">
+  <head>
+    <meta charset="UTF-8" />
+    <title>BonAppetit - בחירת שיטת הזמנה</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Segoe UI", sans-serif;
+        background: linear-gradient(135deg, #fdfcfb, #e2d1c3);
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        direction: rtl;
+      }
+
+      .container {
+        background: white;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        padding: 40px;
+        width: 400px;
+        text-align: center;
+        animation: slideIn 1s ease-out;
+      }
+
+      .logo {
+        width: 100px;
+        margin-bottom: 20px;
+        animation: pulse 2s infinite;
+      }
+
+      h2 {
+        color: #ff6f61;
+        margin-bottom: 10px;
+      }
+
+      .button {
+        display: block;
+        background: #ff6f61;
+        color: white;
+        padding: 15px;
+        margin: 20px auto;
+        border: none;
+        border-radius: 10px;
+        width: 80%;
+        font-size: 1.1em;
+        cursor: pointer;
+        transition: background 0.3s;
+      }
+
+      .button:hover {
+        background: #e5574a;
+      }
+
+      .footer {
+        font-size: 0.9em;
+        color: #888;
+        margin-top: 30px;
+      }
+
+      @keyframes slideIn {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.1);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Bon_Appetit_Logo.svg/512px-Bon_Appetit_Logo.svg.png"
+        alt="לוגו המסעדה"
+        class="logo"
+      />
+      <h2>איך נרצה להכין את ההזמנה שלך?</h2>
+      <button class="button" onclick="chooseOption('pickup')">
+        איסוף עצמי 🚶‍♂
+      </button>
+      <button class="button" onclick="chooseOption('delivery')">
+        משלוח עד הבית 🚚
+      </button>
+      <div class="footer">Powered by BonAppetit ©</div>
+    </div>
+
+    <script>
+      function chooseOption(option) {
+        alert(בחרת ב: ${option === "pickup" ? "איסוף עצמי" : "משלוח"});
+        // כאן אפשר לבצע הפניה לכתובת רלוונטית:
+        // window.location.href = /order?type=${option};
+      }
+    </script>
+  </body>
+</html>
