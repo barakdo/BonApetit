@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BonApetit | Delivery</title>
+  <link rel="stylesheet" href="delivery.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-flex">
+      <a href="index.html" class="logo">
+        <img src="img/logo.png" alt="BonApetit Logo" class="logo-img small-logo" />
+      </a>
+      <nav class="top-nav">
+        <ul>
+          <li><a href="#menu-section">Menu</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <aside class="side-nav" id="sideNav">
+    <div class="subway-line" id="category-nav">
+      <div class="line-track"></div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <section class="container delivery-section">
+      <h2 class="section-title">Place Your Order</h2>
+      <div id="delivery-menu"></div>
+    </section>
+
+    <div class="cart-panel" id="cart">
+      <button class="cart-close" onclick="toggleCart()">✕</button>
+      <h3>🛒 Your Cart</h3>
+      <div id="cart-items"></div>
+      <div class="cart-summary">
+        <span>Total:</span>
+        <strong>₪<span id="cart-total">0</span></strong>
+      </div>
+      <button id="checkout-btn">Checkout</button>
+    </div>
+
+    <button class="floating-cart" onclick="toggleCart()" aria-label="Open shopping cart">
+      🛒<span id="cart-count">0</span>
+    </button>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 BonApetit. All rights reserved.</p>
+  </footer>
+
+  <script src="delivery.js"></script>
+</body>
+</html>

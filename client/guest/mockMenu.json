@@ -1,404 +1,504 @@
 {
   "menuItems": [
     {
-      "name": "Shrimp Cocktail",
-      "description": "Delicious Shrimp Cocktail made with the finest ingredients.",
+      "PK": "ITEM#p1",
+      "SK": "ITEM#p1",
+      "name": "Pizza Dish 1",
+      "description": "Delicious pizza item number 1.",
+      "category": "Pizza",
+      "price": 30,
+      "img": "https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg?id=1",
+      "available": true
+    },
+    {
+      "PK": "ITEM#p2",
+      "SK": "ITEM#p2",
+      "name": "Pasta Dish 2",
+      "description": "Delicious pasta item number 2.",
+      "category": "Pasta",
+      "price": 35,
+      "img": "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?id=2",
+      "available": true
+    },
+    {
+      "PK": "ITEM#p3",
+      "SK": "ITEM#p3",
+      "name": "Appetizer Dish 3",
+      "description": "Delicious appetizer item number 3.",
       "category": "Appetizer",
       "price": 40,
-      "available": true,
-      "img": "https://images.pexels.com/photos/1307698/pexels-photo-1307698.jpeg"
+      "img": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?id=3",
+      "available": true
     },
     {
-      "name": "Pepperoni Pizza",
-      "description": "Delicious Pepperoni Pizza made with the finest ingredients.",
-      "category": "Pizza",
-      "price": 86,
-      "available": true,
-      "img": "https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg"
-    },
-    {
-      "name": "Shrimp Cocktail",
-      "description": "Delicious Shrimp Cocktail made with the finest ingredients.",
-      "category": "Appetizer",
-      "price": 104,
-      "available": true,
-      "img": "https://images.pexels.com/photos/1307698/pexels-photo-1307698.jpeg"
-    },
-    {
-      "name": "White Wine",
-      "description": "Delicious White Wine made with the finest ingredients.",
-      "category": "Drink",
-      "price": 54,
-      "available": true,
-      "img": "https://images.pexels.com/photos/1239302/pexels-photo-1239302.jpeg"
-    },
-    {
-      "name": "Espresso",
-      "description": "Delicious Espresso made with the finest ingredients.",
-      "category": "Drink",
-      "price": 69,
-      "available": true,
-      "img": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg"
-    },
-    {
-      "name": "Cappuccino",
-      "description": "Delicious Cappuccino made with the finest ingredients.",
-      "category": "Drink",
-      "price": 53,
-      "available": true,
-      "img": "https://images.pexels.com/photos/624015/pexels-photo-624015.jpeg"
-    },
-    {
-      "name": "Shrimp Cocktail",
-      "description": "Delicious Shrimp Cocktail made with the finest ingredients.",
-      "category": "Appetizer",
-      "price": 86,
-      "available": true,
-      "img": "https://images.pexels.com/photos/1307698/pexels-photo-1307698.jpeg"
-    },
-    {
-      "name": "Filet Mignon",
-      "description": "Delicious Filet Mignon made with the finest ingredients.",
+      "PK": "ITEM#p4",
+      "SK": "ITEM#p4",
+      "name": "Main Dish 4",
+      "description": "Delicious main item number 4.",
       "category": "Main",
-      "price": 62,
-      "available": true,
-      "img": "https://images.pexels.com/photos/6759512/pexels-photo-6759512.jpeg"
+      "price": 45,
+      "img": "https://images.pexels.com/photos/3915850/pexels-photo-3915850.jpeg?id=4",
+      "available": true
     },
     {
-      "name": "Bruschetta",
-      "description": "Delicious Bruschetta made with the finest ingredients.",
-      "category": "Appetizer",
-      "price": 120,
-      "available": true,
-      "img": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg"
-    },
-    {
-      "name": "Espresso",
-      "description": "Delicious Espresso made with the finest ingredients.",
-      "category": "Drink",
-      "price": 81,
-      "available": true,
-      "img": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg"
-    },
-    {
-      "name": "Red Wine",
-      "description": "Delicious Red Wine made with the finest ingredients.",
-      "category": "Drink",
-      "price": 63,
-      "available": true,
-      "img": "https://images.pexels.com/photos/3643727/pexels-photo-3643727.jpeg"
-    },
-    {
-      "name": "Espresso",
-      "description": "Delicious Espresso made with the finest ingredients.",
-      "category": "Drink",
-      "price": 71,
-      "available": true,
-      "img": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg"
-    },
-    {
-      "name": "Bruschetta",
-      "description": "Delicious Bruschetta made with the finest ingredients.",
-      "category": "Appetizer",
-      "price": 114,
-      "available": true,
-      "img": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg"
-    },
-    {
-      "name": "Pepperoni Pizza",
-      "description": "Delicious Pepperoni Pizza made with the finest ingredients.",
-      "category": "Pizza",
-      "price": 93,
-      "available": true,
-      "img": "https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg"
-    },
-    {
-      "name": "Bruschetta",
-      "description": "Delicious Bruschetta made with the finest ingredients.",
-      "category": "Appetizer",
-      "price": 55,
-      "available": true,
-      "img": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg"
-    },
-    {
-      "name": "Duck Breast",
-      "description": "Delicious Duck Breast made with the finest ingredients.",
-      "category": "Main",
-      "price": 115,
-      "available": true,
-      "img": "https://images.pexels.com/photos/616354/pexels-photo-616354.jpeg"
-    },
-    {
-      "name": "Stuffed Mushrooms",
-      "description": "Delicious Stuffed Mushrooms made with the finest ingredients.",
-      "category": "Appetizer",
-      "price": 120,
-      "available": true,
-      "img": "https://images.pexels.com/photos/4110007/pexels-photo-4110007.jpeg"
-    },
-    {
-      "name": "Truffle Pizza",
-      "description": "Delicious Truffle Pizza made with the finest ingredients.",
-      "category": "Pizza",
-      "price": 63,
-      "available": true,
-      "img": "https://images.pexels.com/photos/2343466/pexels-photo-2343466.jpeg"
-    },
-    {
-      "name": "Grilled Salmon",
-      "description": "Delicious Grilled Salmon made with the finest ingredients.",
-      "category": "Main",
-      "price": 101,
-      "available": true,
-      "img": "https://images.pexels.com/photos/3296278/pexels-photo-3296278.jpeg"
-    },
-    {
-      "name": "Tiramisu",
-      "description": "Delicious Tiramisu made with the finest ingredients.",
+      "PK": "ITEM#p5",
+      "SK": "ITEM#p5",
+      "name": "Dessert Dish 5",
+      "description": "Delicious dessert item number 5.",
       "category": "Dessert",
-      "price": 61,
-      "available": true,
-      "img": "https://images.pexels.com/photos/4109999/pexels-photo-4109999.jpeg"
+      "price": 50,
+      "img": "https://images.pexels.com/photos/3026808/pexels-photo-3026808.jpeg?id=5",
+      "available": true
     },
     {
-      "name": "White Wine",
-      "description": "Delicious White Wine made with the finest ingredients.",
-      "category": "Drink",
-      "price": 37,
-      "available": true,
-      "img": "https://images.pexels.com/photos/1239302/pexels-photo-1239302.jpeg"
-    },
-    {
-      "name": "Shrimp Cocktail",
-      "description": "Delicious Shrimp Cocktail made with the finest ingredients.",
-      "category": "Appetizer",
-      "price": 92,
-      "available": true,
-      "img": "https://images.pexels.com/photos/1307698/pexels-photo-1307698.jpeg"
-    },
-    {
-      "name": "Shrimp Cocktail",
-      "description": "Delicious Shrimp Cocktail made with the finest ingredients.",
-      "category": "Appetizer",
-      "price": 63,
-      "available": true,
-      "img": "https://images.pexels.com/photos/1307698/pexels-photo-1307698.jpeg"
-    },
-    {
-      "name": "Pizza Margherita",
-      "description": "Delicious Pizza Margherita made with the finest ingredients.",
+      "PK": "ITEM#p6",
+      "SK": "ITEM#p6",
+      "name": "Pizza Dish 6",
+      "description": "Delicious pizza item number 6.",
       "category": "Pizza",
-      "price": 36,
-      "available": true,
-      "img": "https://images.pexels.com/photos/1435907/pexels-photo-1435907.jpeg"
+      "price": 30,
+      "img": "https://images.pexels.com/photos/1395967/pexels-photo-1395967.jpeg?id=6",
+      "available": true
     },
     {
-      "name": "Grilled Salmon",
-      "description": "Delicious Grilled Salmon made with the finest ingredients.",
+      "PK": "ITEM#p7",
+      "SK": "ITEM#p7",
+      "name": "Pasta Dish 7",
+      "description": "Delicious pasta item number 7.",
+      "category": "Pasta",
+      "price": 35,
+      "img": "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?id=7",
+      "available": true
+    },
+    {
+      "PK": "ITEM#p8",
+      "SK": "ITEM#p8",
+      "name": "Appetizer Dish 8",
+      "description": "Delicious appetizer item number 8.",
+      "category": "Appetizer",
+      "price": 40,
+      "img": "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?id=8",
+      "available": true
+    },
+    {
+      "PK": "ITEM#p9",
+      "SK": "ITEM#p9",
+      "name": "Main Dish 9",
+      "description": "Delicious main item number 9.",
       "category": "Main",
-      "price": 87,
-      "available": true,
-      "img": "https://images.pexels.com/photos/3296278/pexels-photo-3296278.jpeg"
+      "price": 45,
+      "img": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?id=9",
+      "available": true
     },
     {
-      "name": "Cheesecake",
-      "description": "Delicious Cheesecake made with the finest ingredients.",
+      "PK": "ITEM#p10",
+      "SK": "ITEM#p10",
+      "name": "Dessert Dish 10",
+      "description": "Delicious dessert item number 10.",
       "category": "Dessert",
-      "price": 53,
-      "available": true,
-      "img": "https://images.pexels.com/photos/3026808/pexels-photo-3026808.jpeg"
+      "price": 50,
+      "img": "https://images.pexels.com/photos/2233729/pexels-photo-2233729.jpeg?id=10",
+      "available": true
     },
     {
-      "name": "Espresso",
-      "description": "Delicious Espresso made with the finest ingredients.",
-      "category": "Drink",
-      "price": 90,
-      "available": true,
-      "img": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg"
+      "PK": "ITEM#p11",
+      "SK": "ITEM#p11",
+      "name": "Pizza Dish 11",
+      "description": "Delicious pizza item number 11.",
+      "category": "Pizza",
+      "price": 30,
+      "img": "https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg?id=11",
+      "available": true
     },
     {
-      "name": "Lamb Chops",
-      "description": "Delicious Lamb Chops made with the finest ingredients.",
+      "PK": "ITEM#p12",
+      "SK": "ITEM#p12",
+      "name": "Pasta Dish 12",
+      "description": "Delicious pasta item number 12.",
+      "category": "Pasta",
+      "price": 35,
+      "img": "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?id=12",
+      "available": true
+    },
+    {
+      "PK": "ITEM#p13",
+      "SK": "ITEM#p13",
+      "name": "Appetizer Dish 13",
+      "description": "Delicious appetizer item number 13.",
+      "category": "Appetizer",
+      "price": 40,
+      "img": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?id=13",
+      "available": true
+    },
+    {
+      "PK": "ITEM#p14",
+      "SK": "ITEM#p14",
+      "name": "Main Dish 14",
+      "description": "Delicious main item number 14.",
       "category": "Main",
-      "price": 83,
-      "available": true,
-      "img": "https://images.pexels.com/photos/847722/pexels-photo-847722.jpeg"
+      "price": 45,
+      "img": "https://images.pexels.com/photos/3915850/pexels-photo-3915850.jpeg?id=14",
+      "available": true
     },
     {
-      "name": "Truffle Pizza",
-      "description": "Delicious Truffle Pizza made with the finest ingredients.",
-      "category": "Pizza",
-      "price": 82,
-      "available": true,
-      "img": "https://images.pexels.com/photos/2343466/pexels-photo-2343466.jpeg"
-    },
-    {
-      "name": "Veggie Pizza",
-      "description": "Delicious Veggie Pizza made with the finest ingredients.",
-      "category": "Pizza",
-      "price": 75,
-      "available": true,
-      "img": "https://images.pexels.com/photos/4109121/pexels-photo-4109121.jpeg"
-    },
-    {
-      "name": "Pepperoni Pizza",
-      "description": "Delicious Pepperoni Pizza made with the finest ingredients.",
-      "category": "Pizza",
-      "price": 42,
-      "available": true,
-      "img": "https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg"
-    },
-    {
-      "name": "Red Wine",
-      "description": "Delicious Red Wine made with the finest ingredients.",
-      "category": "Drink",
-      "price": 116,
-      "available": true,
-      "img": "https://images.pexels.com/photos/3643727/pexels-photo-3643727.jpeg"
-    },
-    {
-      "name": "Veggie Pizza",
-      "description": "Delicious Veggie Pizza made with the finest ingredients.",
-      "category": "Pizza",
-      "price": 67,
-      "available": true,
-      "img": "https://images.pexels.com/photos/4109121/pexels-photo-4109121.jpeg"
-    },
-    {
-      "name": "Tiramisu",
-      "description": "Delicious Tiramisu made with the finest ingredients.",
+      "PK": "ITEM#p15",
+      "SK": "ITEM#p15",
+      "name": "Dessert Dish 15",
+      "description": "Delicious dessert item number 15.",
       "category": "Dessert",
-      "price": 103,
-      "available": true,
-      "img": "https://images.pexels.com/photos/4109999/pexels-photo-4109999.jpeg"
+      "price": 50,
+      "img": "https://images.pexels.com/photos/3026808/pexels-photo-3026808.jpeg?id=15",
+      "available": true
     },
     {
-      "name": "Cappuccino",
-      "description": "Delicious Cappuccino made with the finest ingredients.",
-      "category": "Drink",
-      "price": 72,
-      "available": true,
-      "img": "https://images.pexels.com/photos/624015/pexels-photo-624015.jpeg"
+      "PK": "ITEM#p16",
+      "SK": "ITEM#p16",
+      "name": "Pizza Dish 16",
+      "description": "Delicious pizza item number 16.",
+      "category": "Pizza",
+      "price": 30,
+      "img": "https://images.pexels.com/photos/1395967/pexels-photo-1395967.jpeg?id=16",
+      "available": true
     },
     {
-      "name": "Shrimp Cocktail",
-      "description": "Delicious Shrimp Cocktail made with the finest ingredients.",
+      "PK": "ITEM#p17",
+      "SK": "ITEM#p17",
+      "name": "Pasta Dish 17",
+      "description": "Delicious pasta item number 17.",
+      "category": "Pasta",
+      "price": 35,
+      "img": "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?id=17",
+      "available": true
+    },
+    {
+      "PK": "ITEM#p18",
+      "SK": "ITEM#p18",
+      "name": "Appetizer Dish 18",
+      "description": "Delicious appetizer item number 18.",
       "category": "Appetizer",
-      "price": 119,
-      "available": true,
-      "img": "https://images.pexels.com/photos/1307698/pexels-photo-1307698.jpeg"
+      "price": 40,
+      "img": "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?id=18",
+      "available": true
     },
     {
-      "name": "Grilled Salmon",
-      "description": "Delicious Grilled Salmon made with the finest ingredients.",
+      "PK": "ITEM#p19",
+      "SK": "ITEM#p19",
+      "name": "Main Dish 19",
+      "description": "Delicious main item number 19.",
       "category": "Main",
-      "price": 104,
-      "available": true,
-      "img": "https://images.pexels.com/photos/3296278/pexels-photo-3296278.jpeg"
+      "price": 45,
+      "img": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?id=19",
+      "available": true
     },
     {
-      "name": "Veggie Pizza",
-      "description": "Delicious Veggie Pizza made with the finest ingredients.",
-      "category": "Pizza",
-      "price": 65,
-      "available": true,
-      "img": "https://images.pexels.com/photos/4109121/pexels-photo-4109121.jpeg"
-    },
-    {
-      "name": "Pepperoni Pizza",
-      "description": "Delicious Pepperoni Pizza made with the finest ingredients.",
-      "category": "Pizza",
-      "price": 109,
-      "available": true,
-      "img": "https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg"
-    },
-    {
-      "name": "Pizza Margherita",
-      "description": "Delicious Pizza Margherita made with the finest ingredients.",
-      "category": "Pizza",
-      "price": 53,
-      "available": true,
-      "img": "https://images.pexels.com/photos/1435907/pexels-photo-1435907.jpeg"
-    },
-    {
-      "name": "Cheesecake",
-      "description": "Delicious Cheesecake made with the finest ingredients.",
+      "PK": "ITEM#p20",
+      "SK": "ITEM#p20",
+      "name": "Dessert Dish 20",
+      "description": "Delicious dessert item number 20.",
       "category": "Dessert",
-      "price": 109,
-      "available": true,
-      "img": "https://images.pexels.com/photos/3026808/pexels-photo-3026808.jpeg"
+      "price": 50,
+      "img": "https://images.pexels.com/photos/2233729/pexels-photo-2233729.jpeg?id=20",
+      "available": true
     },
     {
-      "name": "Duck Breast",
-      "description": "Delicious Duck Breast made with the finest ingredients.",
-      "category": "Main",
-      "price": 95,
-      "available": true,
-      "img": "https://images.pexels.com/photos/616354/pexels-photo-616354.jpeg"
+      "PK": "ITEM#p21",
+      "SK": "ITEM#p21",
+      "name": "Pizza Dish 21",
+      "description": "Delicious pizza item number 21.",
+      "category": "Pizza",
+      "price": 30,
+      "img": "https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg?id=21",
+      "available": true
     },
     {
-      "name": "Bruschetta",
-      "description": "Delicious Bruschetta made with the finest ingredients.",
+      "PK": "ITEM#p22",
+      "SK": "ITEM#p22",
+      "name": "Pasta Dish 22",
+      "description": "Delicious pasta item number 22.",
+      "category": "Pasta",
+      "price": 35,
+      "img": "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?id=22",
+      "available": true
+    },
+    {
+      "PK": "ITEM#p23",
+      "SK": "ITEM#p23",
+      "name": "Appetizer Dish 23",
+      "description": "Delicious appetizer item number 23.",
       "category": "Appetizer",
-      "price": 72,
-      "available": true,
-      "img": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg"
+      "price": 40,
+      "img": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?id=23",
+      "available": true
     },
     {
-      "name": "Duck Breast",
-      "description": "Delicious Duck Breast made with the finest ingredients.",
+      "PK": "ITEM#p24",
+      "SK": "ITEM#p24",
+      "name": "Main Dish 24",
+      "description": "Delicious main item number 24.",
       "category": "Main",
-      "price": 47,
-      "available": true,
-      "img": "https://images.pexels.com/photos/616354/pexels-photo-616354.jpeg"
+      "price": 45,
+      "img": "https://images.pexels.com/photos/3915850/pexels-photo-3915850.jpeg?id=24",
+      "available": true
     },
     {
-      "name": "Red Wine",
-      "description": "Delicious Red Wine made with the finest ingredients.",
-      "category": "Drink",
-      "price": 47,
-      "available": true,
-      "img": "https://images.pexels.com/photos/3643727/pexels-photo-3643727.jpeg"
-    },
-    {
-      "name": "Shrimp Cocktail",
-      "description": "Delicious Shrimp Cocktail made with the finest ingredients.",
-      "category": "Appetizer",
-      "price": 64,
-      "available": true,
-      "img": "https://images.pexels.com/photos/1307698/pexels-photo-1307698.jpeg"
-    },
-    {
-      "name": "Espresso",
-      "description": "Delicious Espresso made with the finest ingredients.",
-      "category": "Drink",
-      "price": 59,
-      "available": true,
-      "img": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg"
-    },
-    {
-      "name": "Bruschetta",
-      "description": "Delicious Bruschetta made with the finest ingredients.",
-      "category": "Appetizer",
-      "price": 107,
-      "available": true,
-      "img": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg"
-    },
-    {
-      "name": "Grilled Salmon",
-      "description": "Delicious Grilled Salmon made with the finest ingredients.",
-      "category": "Main",
-      "price": 71,
-      "available": true,
-      "img": "https://images.pexels.com/photos/3296278/pexels-photo-3296278.jpeg"
-    },
-    {
-      "name": "Macarons",
-      "description": "Delicious Macarons made with the finest ingredients.",
+      "PK": "ITEM#p25",
+      "SK": "ITEM#p25",
+      "name": "Dessert Dish 25",
+      "description": "Delicious dessert item number 25.",
       "category": "Dessert",
-      "price": 68,
-      "available": true,
-      "img": "https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg"
+      "price": 50,
+      "img": "https://images.pexels.com/photos/3026808/pexels-photo-3026808.jpeg?id=25",
+      "available": true
+    },
+    {
+      "PK": "ITEM#p26",
+      "SK": "ITEM#p26",
+      "name": "Pizza Dish 26",
+      "description": "Delicious pizza item number 26.",
+      "category": "Pizza",
+      "price": 30,
+      "img": "https://images.pexels.com/photos/1395967/pexels-photo-1395967.jpeg?id=26",
+      "available": true
+    },
+    {
+      "PK": "ITEM#p27",
+      "SK": "ITEM#p27",
+      "name": "Pasta Dish 27",
+      "description": "Delicious pasta item number 27.",
+      "category": "Pasta",
+      "price": 35,
+      "img": "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?id=27",
+      "available": true
+    },
+    {
+      "PK": "ITEM#p28",
+      "SK": "ITEM#p28",
+      "name": "Appetizer Dish 28",
+      "description": "Delicious appetizer item number 28.",
+      "category": "Appetizer",
+      "price": 40,
+      "img": "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?id=28",
+      "available": true
+    },
+    {
+      "PK": "ITEM#p29",
+      "SK": "ITEM#p29",
+      "name": "Main Dish 29",
+      "description": "Delicious main item number 29.",
+      "category": "Main",
+      "price": 45,
+      "img": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?id=29",
+      "available": true
+    },
+    {
+      "PK": "ITEM#p30",
+      "SK": "ITEM#p30",
+      "name": "Dessert Dish 30",
+      "description": "Delicious dessert item number 30.",
+      "category": "Dessert",
+      "price": 50,
+      "img": "https://images.pexels.com/photos/2233729/pexels-photo-2233729.jpeg?id=30",
+      "available": true
+    },
+    {
+      "PK": "ITEM#p31",
+      "SK": "ITEM#p31",
+      "name": "Pizza Dish 31",
+      "description": "Delicious pizza item number 31.",
+      "category": "Pizza",
+      "price": 30,
+      "img": "https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg?id=31",
+      "available": true
+    },
+    {
+      "PK": "ITEM#p32",
+      "SK": "ITEM#p32",
+      "name": "Pasta Dish 32",
+      "description": "Delicious pasta item number 32.",
+      "category": "Pasta",
+      "price": 35,
+      "img": "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?id=32",
+      "available": true
+    },
+    {
+      "PK": "ITEM#p33",
+      "SK": "ITEM#p33",
+      "name": "Appetizer Dish 33",
+      "description": "Delicious appetizer item number 33.",
+      "category": "Appetizer",
+      "price": 40,
+      "img": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?id=33",
+      "available": true
+    },
+    {
+      "PK": "ITEM#p34",
+      "SK": "ITEM#p34",
+      "name": "Main Dish 34",
+      "description": "Delicious main item number 34.",
+      "category": "Main",
+      "price": 45,
+      "img": "https://images.pexels.com/photos/3915850/pexels-photo-3915850.jpeg?id=34",
+      "available": true
+    },
+    {
+      "PK": "ITEM#p35",
+      "SK": "ITEM#p35",
+      "name": "Dessert Dish 35",
+      "description": "Delicious dessert item number 35.",
+      "category": "Dessert",
+      "price": 50,
+      "img": "https://images.pexels.com/photos/3026808/pexels-photo-3026808.jpeg?id=35",
+      "available": true
+    },
+    {
+      "PK": "ITEM#p36",
+      "SK": "ITEM#p36",
+      "name": "Pizza Dish 36",
+      "description": "Delicious pizza item number 36.",
+      "category": "Pizza",
+      "price": 30,
+      "img": "https://images.pexels.com/photos/1395967/pexels-photo-1395967.jpeg?id=36",
+      "available": true
+    },
+    {
+      "PK": "ITEM#p37",
+      "SK": "ITEM#p37",
+      "name": "Pasta Dish 37",
+      "description": "Delicious pasta item number 37.",
+      "category": "Pasta",
+      "price": 35,
+      "img": "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?id=37",
+      "available": true
+    },
+    {
+      "PK": "ITEM#p38",
+      "SK": "ITEM#p38",
+      "name": "Appetizer Dish 38",
+      "description": "Delicious appetizer item number 38.",
+      "category": "Appetizer",
+      "price": 40,
+      "img": "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?id=38",
+      "available": true
+    },
+    {
+      "PK": "ITEM#p39",
+      "SK": "ITEM#p39",
+      "name": "Main Dish 39",
+      "description": "Delicious main item number 39.",
+      "category": "Main",
+      "price": 45,
+      "img": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?id=39",
+      "available": true
+    },
+    {
+      "PK": "ITEM#p40",
+      "SK": "ITEM#p40",
+      "name": "Dessert Dish 40",
+      "description": "Delicious dessert item number 40.",
+      "category": "Dessert",
+      "price": 50,
+      "img": "https://images.pexels.com/photos/2233729/pexels-photo-2233729.jpeg?id=40",
+      "available": true
+    },
+    {
+      "PK": "ITEM#p41",
+      "SK": "ITEM#p41",
+      "name": "Pizza Dish 41",
+      "description": "Delicious pizza item number 41.",
+      "category": "Pizza",
+      "price": 30,
+      "img": "https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg?id=41",
+      "available": true
+    },
+    {
+      "PK": "ITEM#p42",
+      "SK": "ITEM#p42",
+      "name": "Pasta Dish 42",
+      "description": "Delicious pasta item number 42.",
+      "category": "Pasta",
+      "price": 35,
+      "img": "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?id=42",
+      "available": true
+    },
+    {
+      "PK": "ITEM#p43",
+      "SK": "ITEM#p43",
+      "name": "Appetizer Dish 43",
+      "description": "Delicious appetizer item number 43.",
+      "category": "Appetizer",
+      "price": 40,
+      "img": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?id=43",
+      "available": true
+    },
+    {
+      "PK": "ITEM#p44",
+      "SK": "ITEM#p44",
+      "name": "Main Dish 44",
+      "description": "Delicious main item number 44.",
+      "category": "Main",
+      "price": 45,
+      "img": "https://images.pexels.com/photos/3915850/pexels-photo-3915850.jpeg?id=44",
+      "available": true
+    },
+    {
+      "PK": "ITEM#p45",
+      "SK": "ITEM#p45",
+      "name": "Dessert Dish 45",
+      "description": "Delicious dessert item number 45.",
+      "category": "Dessert",
+      "price": 50,
+      "img": "https://images.pexels.com/photos/3026808/pexels-photo-3026808.jpeg?id=45",
+      "available": true
+    },
+    {
+      "PK": "ITEM#p46",
+      "SK": "ITEM#p46",
+      "name": "Pizza Dish 46",
+      "description": "Delicious pizza item number 46.",
+      "category": "Pizza",
+      "price": 30,
+      "img": "https://images.pexels.com/photos/1395967/pexels-photo-1395967.jpeg?id=46",
+      "available": true
+    },
+    {
+      "PK": "ITEM#p47",
+      "SK": "ITEM#p47",
+      "name": "Pasta Dish 47",
+      "description": "Delicious pasta item number 47.",
+      "category": "Pasta",
+      "price": 35,
+      "img": "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?id=47",
+      "available": true
+    },
+    {
+      "PK": "ITEM#p48",
+      "SK": "ITEM#p48",
+      "name": "Appetizer Dish 48",
+      "description": "Delicious appetizer item number 48.",
+      "category": "Appetizer",
+      "price": 40,
+      "img": "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?id=48",
+      "available": true
+    },
+    {
+      "PK": "ITEM#p49",
+      "SK": "ITEM#p49",
+      "name": "Main Dish 49",
+      "description": "Delicious main item number 49.",
+      "category": "Main",
+      "price": 45,
+      "img": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?id=49",
+      "available": true
+    },
+    {
+      "PK": "ITEM#p50",
+      "SK": "ITEM#p50",
+      "name": "Dessert Dish 50",
+      "description": "Delicious dessert item number 50.",
+      "category": "Dessert",
+      "price": 50,
+      "img": "https://images.pexels.com/photos/2233729/pexels-photo-2233729.jpeg?id=50",
+      "available": true
     }
   ]
 }
